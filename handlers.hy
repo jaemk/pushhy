@@ -13,6 +13,7 @@
 ;; pb.get_pushes grabs all pushes since a specified time
 ;; After every .get_pushes, the handle time needs to be updated
 (defn init-handler [pb config]
+  (.push_note pb "PushHy startup" "startup!")
   (assoc handle :pb pb)
   (assoc handle :config config)
   (assoc handle :time (.time time)))
