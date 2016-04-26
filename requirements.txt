@@ -1,0 +1,5 @@
+pushbullet.py==0.10.0
+python-magic==0.4.11
+requests==2.9.1
+six==1.10.0
+websocket-client==0.37.0

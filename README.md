@@ -2,7 +2,7 @@
 
 This is a [hy-ified](https://github.com/hylang/hy) fork of my other small project, [pushpy](https://github.com/jaemk/pushpy).
 
-
+Requirements (also see requirements.txt):
 * An opencv install:
   * compile from source... see [pyimagesearch](http://www.pyimagesearch.com/2015/07/27/installing-opencv-3-0-for-both-python-2-7-and-python-3-on-your-raspberry-pi-2/)
   * or do a dirty and install using apt-get `apt-get install python-opencv` (only python2 bindings) 
