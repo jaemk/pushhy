@@ -28,7 +28,7 @@ def save(frame):
     if not os.path.exists(picdump):
         os.mkdir(picdump)
 
-    cv2.imwrite(os.join(picdump, 'picout.png', frame)
+    cv2.imwrite(os.path.join(picdump, 'picout.png'), frame)
 
 
 def capture(cap):
