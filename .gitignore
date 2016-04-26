@@ -1,0 +1,9 @@
+settings.hy
+*.pyc
+*.hyc
+*.swp
+*.swo
+
+env/
+picdump/
+
