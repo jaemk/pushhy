@@ -1,5 +1,11 @@
+appdirs==1.4.0
+args==0.1.0
+astor==0.5
+clint==0.5.1
+hy==0.11.1
 pushbullet.py==0.10.0
 python-magic==0.4.11
 requests==2.9.1
+rply==0.7.4
 six==1.10.0
 websocket-client==0.37.0
